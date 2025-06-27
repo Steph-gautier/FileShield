@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>df7457f5-dc9a-4809-aee7-05e1cf7abef9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FieldShield.SeawedFileAPI\FieldShield.SeawedFileAPI.csproj" />
+    <ProjectReference Include="..\..\FieldShield.WebApi\FieldShield.WebApi.csproj" />
+  </ItemGroup>
+
+</Project>

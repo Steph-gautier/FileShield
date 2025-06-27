@@ -1,0 +1,6 @@
+@FieldShield.WebApi_HostAddress = http://localhost:5075
+
+GET {{FieldShield.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,6 +1,21 @@
-@FieldShield.SeawedFileAPI_HostAddress = http://localhost:5199
+@FieldShield.SeawedFileAPI_HostAddress = https://localhost:7297
 
-GET {{FieldShield.SeawedFileAPI_HostAddress}}/weatherforecast/
-Accept: application/json
+GET {{FieldShield.SeawedFileAPI_HostAddress}}/files?filepath=string
+
+###
+
+HEAD {{FieldShield.SeawedFileAPI_HostAddress}}/files?filepath=string
+
+###
+
+DELETE {{FieldShield.SeawedFileAPI_HostAddress}}/files?filepath=string
+
+###
+
+PUT {{FieldShield.SeawedFileAPI_HostAddress}}/files?fromFilePath=string
+
+###
+
+POST {{FieldShield.SeawedFileAPI_HostAddress}}/files?prefix=string
 
 ###
